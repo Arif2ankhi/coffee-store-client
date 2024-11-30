@@ -50,7 +50,7 @@ const handleAddCoffee = event =>{
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="'label'">
-                            <span className="label-text">Coffee Name</span>
+                            <span className="label-text"> Name</span>
 
                         </label>
                         <label className="input-group">
@@ -62,11 +62,11 @@ const handleAddCoffee = event =>{
                     </div>
                     <div className="form-control md:w-1/2 ml-4">
                         <label className="'label'">
-                            <span className="label-text">Available Quantity</span>
+                            <span className="label-text">Chef</span>
 
                         </label>
                         <label className="input-group">
-                            <input type="text" name="quantity" placeholder="Available Quantity" className="input input-bordered w-full" />
+                            <input type="text" name="quantity" placeholder="chef name" className="input input-bordered w-full" />
 
                         </label>
 
@@ -81,7 +81,7 @@ const handleAddCoffee = event =>{
 
                         </label>
                         <label className="input-group">
-                            <input type="text" name="supplier" placeholder="Supplier Name"
+                            <input type="text" name=" coffee supplier" placeholder="Supplier Name"
                              className="input input-bordered w-full" />
 
                         </label>
@@ -93,7 +93,7 @@ const handleAddCoffee = event =>{
 
                         </label>
                         <label className="input-group">
-                            <input type="text" name="taste" placeholder="Taste" className="input input-bordered w-full" />
+                            <input type="text" name="taste" placeholder="Taste name" className="input input-bordered w-full" />
 
                         </label>
 

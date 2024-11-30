@@ -69,11 +69,11 @@ const UpdateCoffee = () => {
                     </div>
                     <div className="form-control md:w-1/2 ml-4">
                         <label className="'label'">
-                            <span className="label-text">Available Quantity</span>
+                            <span className="label-text">Chef</span>
 
                         </label>
                         <label className="input-group">
-                            <input type="text" name="quantity" defaultValue={quantity} placeholder="Available Quantity" className="input input-bordered w-full" />
+                            <input type="text" name="chef name" defaultValue={quantity} placeholder="Available Quantity" className="input input-bordered w-full" />
 
                         </label>
 
