@@ -22,7 +22,7 @@ const SignUp = () => {
             const newUser = {name, email, createdAt}
 
             // Save new user info to the database 
-            fetch('http://localhost:5000/users', {
+            fetch('https://coffee-store-server-chi-five.vercel.app/users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ const SignUp = () => {
             })
             .then(res=>res.json())
             .then(data => {
-                // console.log('user created to db', data);
+                console.log('user created to db', data);
                 if(data.insertedId){
                     console.log('User created in database');
 

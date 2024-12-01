@@ -18,7 +18,7 @@ const handleAddCoffee = event =>{
     console.log(newCoffee);
 
     //send data to the server 
-    fetch('http://localhost:5000/coffee',{
+    fetch('https://coffee-store-server-chi-five.vercel.app/coffee',{
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
